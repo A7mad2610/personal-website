@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+    scroll-behavior: smooth;
+    -webkit-user-select: none;
+    user-select: none;
+}
+::-webkit-scrollbar{
+    width:7px;
+    background:#ffffffb1;   
+}
+::-webkit-scrollbar-thumb{
+    width:7px;
+    background:  rgb(143, 30, 30);
+}
+body{
+    background-color: #171212;
+    overflow-x: hidden;
+    height: fit-content;
+}
+nav .navbar-brand{
+    color: #fff;
+}
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 8px;
+}
+ul li a:hover{
+    color:#a50e0e;
+}
+/* #x div{
+    
+} */
+.navbar-toggler-icon i {
+    color: #a50e0e;
+}
+#x .btn{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    width: 60%;
+    margin-left: 20%;
+    background-image:linear-gradient(to right,rgb(173, 3, 3) 30% , rgb(106, 4, 4)) ;
+    border: none;
+    transition: all .3s ease;
+}
+#x .btn:hover{
+    background-image:linear-gradient(to right,rgb(255, 255, 255) 30% , rgb(255, 255, 255)) ;
+    color: rgb(199, 19, 19) ;
+}
+.home{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.home .content{
+    width: 94%;
+    height: 100%;
+    margin-left: 3%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.home .content .image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .content .txt{
+    width: 40%;
+}
+.home .content .txt h3{
+    color: rgb(179, 21, 21);
+    font-size: 18px;
+    font-weight: 600;
+}
+.home .content .txt h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+.home .content .txt p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.home .content .txt .btn{
+    color: #000;
+    background-image:linear-gradient(to right,rgb(173, 3, 3) 30% , rgb(106, 4, 4)) ;
+    border: none;
+    transition: all 1s ease;
+    font-weight: 600;
+    width: 120px ;
+    padding:10px 20px;
+}
+.home .content .txt .btn:hover{
+    background-image:linear-gradient(to right,rgb(255, 255, 255) 30% , rgb(255, 255, 255)) ;
+    color: rgb(199, 19, 19) ;
+}
+#Skills{
+    width: 100%;
+}
+#Skills h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    left: 13%;
+    top: 80%;
+}
+#Skills .container{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    /* background-color: rgba(255, 255, 255, 0.064);
+    border-radius : 10px;
+    padding: 30px 40px; */
+}
+
+#Skills .container div{
+    width: 300px;
+    height: 300px;
+    padding: 50px 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 2px;
+    background-color: #1e1c1c;
+}
+#Skills .container .color{
+    background-image:linear-gradient(to right,rgb(173, 3, 3) 30% , rgb(106, 4, 4)) ;
+}
+#Skills .container .color h2{
+    color: #fff;
+}
+#Skills .container .color p{
+    color: #000;
+}
+#Skills .container div h2{
+    color: #a50e0e;
+    font-weight: 600;
+}
+#Skills .container p {
+    color: #fff;
+}
+.decore1{
+    height: 100%;
+    width: 100%;
+    clip-path: circle( );
+    background-color: #000000;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: -50%;
+}
+.decore2{
+    height: 100%;
+    width: 100%;
+    clip-path: circle( );
+    background-color: #a50e0ecb;
+    z-index: -1;
+    position: absolute;
+    top: 130%;
+    right: -50%;
+}
+.decore3{
+    height: 100%;
+    width: 100%;
+    clip-path: circle( );
+    background-color: #000000;
+    z-index: -1;
+    position: absolute;
+    top: 210%;
+    left: -50%;
+}
+.decore4{
+    height: 100%;
+    width: 100%;
+    clip-path: circle( );
+    background-color: #a50e0ed7;
+    z-index: -1;
+    position: absolute;
+    top: 290%;
+    right: -50%;
+}
+.decore5{
+    height: 100%;
+    width: 100%;
+    clip-path: circle( );
+    background-color: #000000;
+    z-index: -1;
+    position: absolute;
+    top: 370%;
+    left: -50%;
+}
+#portfolio{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+#portfolio h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    left: 13%;
+    top: 165%;
+}
+#portfolio .container{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#portfolio .container .card{
+    width: 40%;
+    height: 330px;
+    padding: 0px 0px ;
+    margin: 30px 20px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;  */
+    background-color: #1e1c1c;
+    border-radius: 20px 20px 0 0;
+}
+
+#portfolio .container .image{
+    width: 100%;
+    margin-bottom: 20px;
+    opacity: .7;
+    transition: all .3s ease;
+}
+#portfolio .container .image:hover{
+    opacity: 1;
+}
+#portfolio .container .image img{
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 20px 20px 0 0;
+}
+#portfolio .container .txt {
+    width: 100%;
+    margin: 10px;
+}
+#portfolio .container .txt h2{
+    color: #fff;
+}
+#portfolio .container .txt a{
+    color: #a50e0e;
+}
+#About{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#About .container{
+    width: 80%;
+    margin-left: 10%;
+    padding: 60px;
+    background-color: #1e1c1c;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+#About .container .txt{
+    width: 50%;
+}
+#About .container .image{
+    width: 40%;
+}
+#About .container .image image{
+    width: 100%;
+}
+
+#About .container h1{
+    color: #a50e0e;
+    font-size: 40px;
+    font-weight: 600;
+}
+#About .container h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+#About .container p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+#contact{
+    width: 100%;
+}
+#contact .container{
+    width: 80%;
+    height: fit-content;
+    margin-left: 10%;
+    margin-top:  100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    border-radius: 20px;
+    background-color: #1e1c1c;
+}
+#contact .container .title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+#contact .container .title h1{
+    color: #fff;
+    font-size: 50px;
+}
+#contact .container form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact .container form input{
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+   margin: 10px 15% 10px 15%;
+   outline: none;
+   border: none;
+   border-radius: 20px;
+}
+#contact .container form textarea{
+    width: 70%;
+    height: 150px;
+    padding: 10px;
+   margin: 15px 15% 15px 15%;
+   outline: none;
+   border: none;
+   border-radius: 20px;
+}
+#contact .container form .btn{
+    color: #000;
+    background-image:linear-gradient(to right,rgb(173, 3, 3) 30% , rgb(106, 4, 4)) ;
+    border: none;
+    transition: all 1s ease;
+    font-weight: 600;
+    width: 160px ;
+    margin: 15px 15% 15px 15%;
+    padding:10px 20px;
+    text-align: center;
+}
+#contact .container form .btn:hover{
+    background-image:linear-gradient(to right,rgb(255, 255, 255) 30% , rgb(255, 255, 255)) ;
+    color: rgb(199, 19, 19) ;
+}
+.social{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social .fa-brands{
+    font-size: 30px;
+    color: #fff;
+    background-image:linear-gradient(to right,rgb(173, 3, 3) 30% , rgb(106, 4, 4)) ;
+    border-radius: 30px;
+    text-align: center;
+    width: 50px;
+    padding: 10px 0;
+    margin:5px ;
+    cursor: pointer;
+}
+.social .fa-brands:hover{
+    background-image:linear-gradient(to right,rgb(255, 255, 255) 30% , rgb(255, 255, 255)) ;
+    color: rgb(199, 19, 19) ;
+    transition: all 0.1s ease;
+}
